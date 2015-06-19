@@ -1,2 +1,4 @@
 # IonicServerSave
-The simplest example on how to POST data from Ionic to PHP server
+The simplest example on how to POST data from Ionic to PHP server. Tutorial on how to create this step by step can be found [here](http://www.nikola-breznjak.com/blog/ionic/posting-data-from-ionic-app-to-php-server/).
+
+![app in action](ionic_phpDemo.jpg)
