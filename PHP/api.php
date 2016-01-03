@@ -13,11 +13,11 @@
             header("Access-Control-Allow-Methods: GET, POST, OPTIONS");         
 
         if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']))
-            header("Access-Control-Allow-Headers:        {$_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']}");
+            header("Access-Control-Allow-Headers:        
+            {$_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']}");
 
         exit(0);
     }
-
 
     //http://stackoverflow.com/questions/15485354/angular-http-post-to-php-and-undefined
     $postdata = file_get_contents("php://input");
